@@ -1,0 +1,196 @@
+.checkout {
+  margin-top: 90px;
+  .checkout__box {
+    width: 1000px;
+    margin-bottom: 100px;
+    .checkout__box__summary {
+      font-size: 16px;
+      font-weight: bold;
+      color: #222222;
+      text-transform: uppercase;
+      transition: color 150ms;
+    }
+    .checkout__box__summary:hover {
+      color: #f16d7f;
+    }
+    .checkout__box__summary::-webkit-details-marker,
+    -moz-list-bullet {
+      display: none;
+      list-style-type: none;
+    }
+    .checkout__box__content {
+      display: flex;
+      padding: 0 25px;
+      .content__box {
+        width: 500px;
+        margin-right: 100px;
+        .box__h1 {
+          font-size: 13px;
+          color: #222222;
+          text-transform: uppercase;
+          margin-top: 30px;
+          margin-bottom: 15px;
+        }
+        .box__p {
+          font-size: 13px;
+          color: #b3b2b2;
+          line-height: 20px;
+          margin-bottom: 30px;
+        }
+        .box__radio {
+          display: flex;
+          align-items: center;
+          .radio__span {
+            font-weight: bold;
+            font-size: 12px;
+            color: #222222;
+            text-transform: uppercase;
+            margin-left: 15px;
+            transition: color 150ms;
+          }
+          .radio__span:hover {
+            color: #f16d7f;
+          }
+        }
+        .box__a {
+          font-size: 13px;
+          color: #b3b2b2;
+          line-height: 25px;
+          transition: color 150ms;
+          .fas {
+            margin-right: 5px;
+          }
+        }
+        .box__a:hover {
+          color: #f16d7f;
+        }
+        .box__button {
+          display: block;
+          height: 50px;
+          width: 180px;
+          background-color: #ffffff;
+          border: 1px solid #eaeaea;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          font-weight: bold;
+          color: #4a4a4a;
+          text-transform: uppercase;
+          margin-top: 40px;
+          transition: all 150ms;
+        }
+        .box__button:hover {
+          color: #f16d7f;
+          border: 1px solid #f16d7f;
+        }
+        .box__h3 {
+          font-size: 12px;
+          color: #222222;
+          line-height: 20px;
+          margin-bottom: 15px;
+        }
+        .box__input {
+          height: 45px;
+          width: 390px;
+          background-color: #ffffff;
+          border: 1px solid #eaeaea;
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-bottom: 22px;
+          transition: all 150ms;
+        }
+        .box__input:hover {
+          border: 1px solid #f16d7f;
+        }
+        .box__button_box {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .box__a_forgot {
+          font-size: 14px;
+          color: #222222;
+          margin-top: 40px;
+          margin-right: 40px;
+          transition: color 150ms;
+        }
+        .box__a_forgot:hover {
+          color: #f16d7f;
+        }
+      }
+    }
+  }
+}
+
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 160px;
+  background-image: url(../img/smiley.png);
+  background-size: cover;
+  animation: super-animation 20s 2s 10 normal;
+  z-index: 1;
+}
+
+// @keyframes super-animation {
+//   0% {
+//     top: 0;
+//     left: 0;
+//     transform: rotate(-720deg);
+//   }
+
+//   10% {
+//     left: 50%;
+//     top: 50%;
+//   }
+
+//   20% {
+//     left: 75%;
+//     top: 35%;
+//   }
+
+//   30% {
+//     left: 25%;
+//     top: 25%;
+//   }
+
+//   40% {
+//     left: 38%;
+//     top: 59%;
+//   }
+
+//   50% {
+//     left: 75%;
+//     top: 69%;
+//   }
+
+//   60% {
+//     left: 52%;
+//     top: 37%;
+//     transform: rotate(720deg);
+//   }
+
+//   70% {
+//     left: 38%;
+//     top: 94%;
+//   }
+
+//   80% {
+//     left: 0;
+//     top: 300px;
+//   }
+
+//   90% {
+//     left: 82%;
+//     top: 39%;
+//   }
+
+//   100% {
+//     left: 50%;
+//     top: 0;
+//   }
+// }
