@@ -1,0 +1,208 @@
+.shopping_cart {
+  margin-top: 90px;
+
+  .shopping_cart__ul {
+    display: flex;
+    justify-content: space-between;
+    .ul__border {
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 20px;
+    }
+  }
+  .shopping_cart__list {
+    font-size: 13px;
+    font-weight: bold;
+    color: #222222;
+    letter-spacing: -0.01em;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .shopping_cart_width {
+    width: 500px;
+  }
+  .shopping_cart__product {
+    height: 115px;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 19px;
+  }
+  .shopping_cart__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .shopping_cart__list {
+    display: flex;
+    .shopping_cart__list__img {
+      height: 115px;
+      width: 100px;
+    }
+  }
+  .shopping_cart__content {
+    margin-top: 13px;
+    margin-left: 20px;
+    .shopping_cart__content__name {
+      font-size: 13px;
+      color: #222222;
+      text-transform: uppercase;
+      margin-bottom: 38px;
+    }
+    .shopping_cart__content__atr {
+      font-size: 13px;
+      color: #575757;
+      font-weight: 700;
+      .shopping_cart__content__atr__span {
+        font-size: 13px;
+        font-weight: 300;
+        color: #6f6e6e;
+        padding-left: 5px;
+      }
+    }
+  }
+  .shopping_cart__list {
+    font-size: 13px;
+    color: #656565;
+    .shopping_cart__list__input {
+      text-align: center;
+      height: 35px;
+      width: 48px;
+      background-color: #ffffff;
+      border: 1px solid #eaeaea;
+    }
+  }
+  .shopping_cart__buttons {
+    display: flex;
+    justify-content: space-between;
+    .shopping_cart__buttons__a {
+      font-size: 14px;
+      font-weight: bold;
+      color: #4a4a4a;
+      text-transform: uppercase;
+
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 225px;
+      background-color: #ffffff;
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+      margin-top: 45px;
+      transition: 150ms;
+    }
+    .shopping_cart__buttons__a:hover {
+      color: #f16d7f;
+      box-shadow: 0 0 3px #222222;
+      transition: 150ms;
+    }
+  }
+}
+
+.product_bay {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 63px;
+  .product_bay__adress {
+    width: 355px;
+  }
+  .product_bay__h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+  }
+  .product_bay__input {
+    height: 45px;
+    width: 325px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+    font-size: 13px;
+    font-weight: 300;
+    color: #b1b1b1;
+    padding-left: 18px;
+  }
+  .product_bay__a {
+    font-size: 11px;
+    font-weight: 900;
+    color: #4a4a4a;
+    line-height: 35px;
+    text-transform: uppercase;
+
+    display: block;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+  }
+  .product_bay__a:hover {
+    color: #f16d7f;
+    box-shadow: 0 0 3px #222222;
+    transition: 150ms;
+  }
+  .product_bay__discount__p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 28px;
+    margin-bottom: 24px;
+  }
+  .product_bay__checkout {
+    height: 140px;
+    width: 275px;
+    background-color: #f5f3f3;
+    padding: 40px;
+    .product_bay__checkout__sub {
+      text-align: right;
+      font-size: 11px;
+      color: #4a4a4a;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      .product_bay__checkout__sub__span {
+        padding-left: 15px;
+      }
+    }
+    .product_bay__checkout__GRAND {
+      text-align: right;
+      font-size: 16px;
+      font-weight: bold;
+      color: #222222;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      .product_bay__checkout__GRAND__span {
+        font-size: 16px;
+        font-weight: bold;
+        color: #f16d7f;
+        text-transform: uppercase;
+        padding-left: 15px;
+      }
+    }
+    .product_bay__checkout__button {
+      margin: 0 auto;
+      display: block;
+      height: 50px;
+      width: 273px;
+      background-color: #f16d7f;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      line-height: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+    .product_bay__checkout__button:hover {
+      box-shadow: 0 0 6px #222222;
+      transition: 150ms;
+    }
+  }
+}
